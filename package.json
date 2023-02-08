@@ -1,0 +1,21 @@
+{
+  "name": "crossfit-app",
+  "version": "1.0.0",
+  "description": "api crossfit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bryan romero",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
